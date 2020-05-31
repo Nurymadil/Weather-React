@@ -1,0 +1,11 @@
+weather-card {
+  box-sizing: content-box;
+}
+.card {
+  margin-top: 20px;
+  height: 350px;
+  border-radius: 25px;
+}
+.card-body {
+  padding: 0px;
+}
