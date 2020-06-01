@@ -8,7 +8,7 @@ export default class Search extends Component {
     };
   }
   handleChange = (e) => {
-    this.setState({ value: e.target.value });
+    this.setState({ [e.target.name]: e.target.value });
   };
   handlePassData = () => {
     this.props.passData(this.state.value);
@@ -23,6 +23,8 @@ export default class Search extends Component {
           onChange={(e) => {
             this.handleChange(e);
           }}
+          name="value"
+          defaultValue={this.state.value}
         ></input>
         <button
           type="button"

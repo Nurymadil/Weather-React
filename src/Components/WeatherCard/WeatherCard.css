@@ -2,9 +2,10 @@ weather-card {
   box-sizing: content-box;
 }
 .card {
-  margin-top: 20px;
   height: 350px;
   border-radius: 25px;
+  background: -o-linear-gradient(top, #03057a, #711b86);
+  background: linear-gradient(to bottom, #03057a, #711b86);
 }
 .card-body {
   padding: 0px;
